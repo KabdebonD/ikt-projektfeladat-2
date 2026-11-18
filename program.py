@@ -39,8 +39,5 @@ for i in range(26):
     foglalt.append(foglaltak)
 
 
-for u in range(len(foglalt)):
-    print(foglalt[u].f_sor)
-    print("niaeeafrewf")
-    print(foglalt[u].f_oszlop)
+print(f"")
 kiir(foglalt,oszlop,sor)

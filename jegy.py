@@ -40,7 +40,7 @@ sajat = FOGLALAS(-1,-1)
 be = ''
 kiir(foglalt,oszlop,sor)
 marfoglalt = False
-print("Az 1-3. sor 4000 ft, a többi 2000ft")
+print("Az 1-3. sor 4000 Ft, a többi 2000 Ft")
 sajatsor = int(input('Hanyadik sorban szeretnél helyet foglalni? (1-7) '))
 sajatoszlop = int(input("Hanyadik helyet szeretnéd ebben a sorban? (1-30) "))
 '''for a in foglalt:

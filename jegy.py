@@ -35,7 +35,7 @@ for i in range(56):
     foglaltak = FOGLALAS(random.choice(oszlop),random.choice(sor))
     foglalt.append(foglaltak)
 
-print(f"a teli négyzetek a foglathelyeket, az üres négyzetek az üres helyeket jelölik")
+print(f"A teli négyzetek a foglalt helyeket, az üres négyzetek az üres helyeket jelölik.\n")
 sajat = FOGLALAS(-1,-1)
 be = ''
 kiir(foglalt,oszlop,sor)
@@ -83,4 +83,4 @@ if sajatsor<=2:
     ar = 4000
 else:
     ar = 2000
-print(f'Sikeresen lefoglaltad a helyed! \n {ar} ezer forint lessz! ')
+print(f'Sikeresen lefoglaltad a helyed!\n{ar} Ft lesz! ')
